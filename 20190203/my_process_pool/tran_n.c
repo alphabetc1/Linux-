@@ -15,6 +15,7 @@ int send_n(int sfd,char* ptran,int len)
     }
     return 0;
 }
+
 int recv_n(int sfd,char* ptran,int len)
 {
     int total=0;
